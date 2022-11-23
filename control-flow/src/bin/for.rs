@@ -1,5 +1,7 @@
 fn main() {
-    for i in 1..10 {
+    let faixa = 20..30;
+
+    for i in faixa {
         println!("O numero esta variando entre {}", i)
     }
 }
