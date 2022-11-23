@@ -1,7 +1,7 @@
 fn main() {
-    let faixa = 20..30;
+    let animais = vec!["Coelho", "Gato", "Macaco"];
 
-    for i in faixa {
-        println!("O numero esta variando entre {}", i)
+    for a in animais {
+        println!("O animal a seguir eh o {}", a)
     }
 }
