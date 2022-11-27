@@ -29,3 +29,4 @@ Binaries:
 Binaries
 - gender
 - car-type
+- payment-type
