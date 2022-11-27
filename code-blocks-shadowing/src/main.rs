@@ -1,3 +1,8 @@
 fn main() {
-    println!("Hello, world!");
+    let a = 10;
+    {
+        let b = 15;
+
+        println!("A soma de {} com {} é {}", a, b, a+b)
+    }
 }
