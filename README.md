@@ -28,3 +28,4 @@ Binaries:
 
 Binaries
 - gender
+- car-type
