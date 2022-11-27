@@ -1,6 +1,8 @@
 fn main() {
-    let x = 10;
-    let y = &x;
+    let mut x = 10;
+    let y = &mut x;
 
-    println!("x {} -> y {}", x, y);
+    *y +=1;
+
+    println!("y {}", y);
 }
