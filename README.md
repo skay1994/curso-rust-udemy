@@ -30,3 +30,8 @@ Binaries
 - gender
 - car-type
 - payment-type
+
+## Code Blocks and Shadowing
+
+Binaries
+- variables-statics
