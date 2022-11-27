@@ -23,3 +23,8 @@ Binaries:
 - somevalueswhile
 - average
 - for
+
+## Enums
+
+Binaries
+- gender
