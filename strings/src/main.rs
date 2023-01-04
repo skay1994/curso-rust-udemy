@@ -6,4 +6,6 @@ fn main() {
     for token in minhaString.split_whitespace() {
         println!("{}", token);
     }
+
+    println!("O nome 'Jorge' está contido na String? {}", minhaString.contains("Jorge"))
 }
