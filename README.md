@@ -35,3 +35,8 @@ Binaries
 
 Binaries
 - variables-statics
+
+## Structs
+
+Binaries
+- struct-tuple
