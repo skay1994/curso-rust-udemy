@@ -5,15 +5,15 @@ This repository contains all classes with code content from course about [Rust](
 ## Run codes
 
 To run main code, open the folder and run
-```
-> cargo run
+```sh
+cargo run
 ```
 
 ## Run binaries
 
 Inside the folder and run:
-```
-> cargo run --bin {file_name}
+```sh
+cargo run --bin {file_name}
 ```
 
 ## Control Flow
