@@ -8,4 +8,9 @@ fn main() {
     hashmap.insert("Informatica", 96);
 
     println!("Quantas materias o aluno cursou? {}", hashmap.len());
+
+    match hashmap.get("Informatica") {
+        Some(k) => println!("O aluno cursou Informatica e tirou {}", k),
+        None => println!("O aluno não cursou Informatica"),
+    }
 }
