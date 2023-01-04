@@ -12,7 +12,11 @@ impl User {
     }
 
     fn ativo_ou_inativo(&self) {
-        println!("O usuario esta ativo? {}", self.ativo)
+        let status = match self.ativo {
+            false => "Não",
+            true => "Sim",
+        };
+        println!("O usuario esta ativo? {}", status)
     }
 }
 
