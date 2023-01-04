@@ -13,4 +13,7 @@ fn main() {
         Some(k) => println!("O aluno cursou Informatica e tirou {}", k),
         None => println!("O aluno não cursou Informatica"),
     }
+
+    hashmap.remove("Portugues");
+    println!("O aluno estuda Portugues? {}", hashmap.contains_key("Portugues"))
 }
