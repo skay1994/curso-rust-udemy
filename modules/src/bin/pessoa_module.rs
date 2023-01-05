@@ -1,9 +1,9 @@
-mod pessoa_struct;
+mod module;
 
-use pessoa_struct::Pessoa;
+use module::structs::Pessoa;
 
 fn main() {
-    let pessoa = Pessoa {
+    let pessoa = Pessoa::Pessoa {
         nome: String::from("Jorge"),
         sobrenome: String::from("Carlos"),
         idade: 28,
