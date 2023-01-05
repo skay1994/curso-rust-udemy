@@ -1,3 +1,5 @@
+mod metodo;
+
 fn main() {
-    println!("Hello, world!");
+    metodo::metodo_teste()
 }
