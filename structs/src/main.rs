@@ -6,6 +6,10 @@ struct User {
     genero: String
 }
 
+fn user(usuario: &User) {
+    println!("O nome do usuario é {}", usuario.username)
+}
+
 fn main() {
     let mut pessoa = User {
         username: String::from("JoaoPessoa"),
@@ -21,5 +25,8 @@ fn main() {
         pessoa.username,
         pessoa.email,
         pessoa.genero
-    )
+    );
+
+    user(&pessoa);
+    user(&pessoa);
 }
