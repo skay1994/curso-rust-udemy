@@ -41,3 +41,8 @@ Binaries
 Binaries
 - struct-tuple
 - impl
+
+## Files
+
+Binaries
+- write_file
