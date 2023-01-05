@@ -36,6 +36,12 @@ Binaries
 Binaries
 - variables-statics
 
+## Strings
+
+Binaries
+- slice_string
+- methods
+
 ## Structs
 
 Binaries
