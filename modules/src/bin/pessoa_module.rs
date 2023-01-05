@@ -1,7 +1,9 @@
 mod pessoa_struct;
 
+use pessoa_struct::Pessoa;
+
 fn main() {
-    let pessoa = pessoa_struct::Pessoa {
+    let pessoa = Pessoa {
         nome: String::from("Jorge"),
         sobrenome: String::from("Carlos"),
         idade: 28,
