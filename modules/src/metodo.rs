@@ -1,3 +1,3 @@
-pub fn metodo_teste() {
-    println!("Metodo teste");
+pub fn metodo_teste(name: &str) {
+    println!("Metodo teste, {}", name);
 }
