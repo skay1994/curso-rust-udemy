@@ -1,5 +1,5 @@
 mod metodo;
 
 fn main() {
-    metodo::metodo_teste()
+    metodo::metodo_teste("Jorge")
 }
